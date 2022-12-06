@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1, shrink-to-fit=no" />
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href=
+"https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+        rel="stylesheet" />
+</head>
+ 
+<body>
+    <div class="container mt-3">
+        <br />
+        <h1>SEJEN </h1>
+        <br />
+        <form action="/formFillUp" method="POST">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName"
+                        style="font-size: 23px">
+                        NOM
+                    </label>
+                    <input type="text" class="form-control"
+                    id="name" name="name" />
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="inputPRENOM"
+                    style="font-size: 23px">
+                    PRENOM
+                </label>
+                 
+                <input type="text" class="form-control"
+                    id="prenom" name="prenom" />
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputDATE NAISSANCE"
+                    style="font-size: 23px">
+                    DATE NAISSANCE
+                </label>
+                <input type="date" class="form-control"
+                    id="inputdate_N" name="date_N" />
+            </div>
+            <div class="form-group col-md-6">
+                <label for="input_telephone"
+                    style="font-size: 23px">TELEPHONE
+                </label>
+                <input type="text" class="form-control"
+                id="input_telephone" name="telphone" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEMAIL"
+                style="font-size: 23px">EMAIL
+            </label>
+            <input type="email" class="form-control"
+                id="inputemail" name="email" />
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputFONCTION"
+                style="font-size: 23px">FONCTION
+            </label>
+            <input type="text" class="form-control"
+                id="inputfonction" name="fonction" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputADRESSE"
+            style="font-size: 23px">ADRESSE</label>
+        <input type="text" class="form-control"
+            id="inputadrsse" name="adresse" />
+    </div>
+    <button type="submit" class="btn btn-primary">
+        ENREGISTRER
+    </button>
+</form>
+</div>
+</body>
+
+</html>
